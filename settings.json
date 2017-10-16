@@ -4,5 +4,14 @@
   "terminal.integrated.fontFamily": "Ricty Diminished",
   "terminal.integrated.fontSize": 14,
   "editor.cursorBlinking": "solid",
-  "bashBeautify.tabSize": 2
+  "bashBeautify.tabSize": 2,
+
+  "ruby.lint": {
+    "reek": true,
+    "rubocop": true,
+    "ruby": true, //Runs ruby -wc
+    "fasterer": true,
+    "debride": true,
+    "ruby-lint": true
+  }
 }
