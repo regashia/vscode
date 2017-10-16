@@ -2,4 +2,4 @@
 
 cd $(dirname "${0}")/..
 
-code --list-extensions >> extension_list
+code --list-extensions > extension_list
