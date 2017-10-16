@@ -20,5 +20,17 @@
     "key": "ctrl+x f",
     "command": "workbench.view.search",
     "when": "!searchViewletVisible"
+  },
+  {
+    "key": "ctrl+x c",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+x n",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "ctrl+x p",
+    "command": "workbench.action.previousEditorInGroup"
   }
 ]
