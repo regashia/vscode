@@ -32,5 +32,13 @@
   {
     "key": "ctrl+x p",
     "command": "workbench.action.previousEditorInGroup"
+  },
+  {
+    "key": "cmd+w",
+    "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+x 0",
+    "command": "workbench.action.closeActiveEditor"
   }
 ]
