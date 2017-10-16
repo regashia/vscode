@@ -1,0 +1,7 @@
+#!/bin/bash -eu
+
+cd $(dirname "${0}")/..
+
+cat extension_list | while read line; do
+  code --install-extension ${line}
+done
