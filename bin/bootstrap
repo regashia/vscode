@@ -3,3 +3,4 @@
 cd $(dirname "${0}")/..
 
 ln -sfv $(pwd)/settings.json "${HOME}/Library/Application Support/Code/User/settings.json"
+ln -sfv $(pwd)/keybindings.json "${HOME}/Library/Application Support/Code/User/keybindings.json"
